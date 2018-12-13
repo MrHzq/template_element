@@ -1,6 +1,7 @@
 <template>
     <div class="test">
-        我是Element UI
+        <div>template_element</div>
+        <div>我是Element UI </div>
         <i class="el-icon-edit"></i>
         <el-button type="success">Element UI</el-button>
     </div>
@@ -11,13 +12,13 @@
         name: 'test',
         data() {},
         created() {
-            this.$api.logout({
-                password: 'qwer1234',
-                userNo: '13402318457'
-            });
+            this.$api.login({
+                phone: '13402318457',
+                code: '123458'
+            })
         },
         methods: {}
-    };
+    }
 </script>
 
 <style lang='scss' scoped>

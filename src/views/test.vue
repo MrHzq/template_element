@@ -1,16 +1,13 @@
 <template>
     <div class="test">
-        <div>template_element</div>
-        <div>我是Element UI</div>
-        <i class="el-icon-edit"></i>
-        <el-button type="success">Element UI</el-button>
+        <div>我是：Vue 项目模板--Element</div>
+        <el-button type="success">Element UI Button</el-button>
     </div>
 </template>
 
 <script>
     export default {
         name: 'test',
-        data() {},
         created() {
             this.$api
                 .login({
@@ -18,8 +15,7 @@
                     code: '123458'
                 })
                 .then(res => console.log(res))
-        },
-        methods: {}
+        }
     }
 </script>
 

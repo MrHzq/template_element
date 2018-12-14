@@ -11,11 +11,10 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
-        "cross-env": "^5.2.0",
         "element-ui": "^2.4.11",
-        "hzq-axios": "^1.0.6",
-        "hzq-router": "^1.0.2",
-        "hzq-tool": "^1.0.6",
+        "hzq-axios": "^1.0.8",
+        "hzq-router": "^1.0.3",
+        "hzq-tool": "^1.0.8",
         "vue": "^2.5.21",
         "vue-router": "^3.0.2",
         "vuex": "^3.0.1"
@@ -33,6 +32,7 @@
         "babel-preset-stage-2": "^6.22.0",
         "chalk": "^2.0.1",
         "copy-webpack-plugin": "^4.0.1",
+        "cross-env": "^5.2.0",
         "css-loader": "^0.28.0",
         "extract-text-webpack-plugin": "^3.0.0",
         "file-loader": "^1.1.4",
